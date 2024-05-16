@@ -3,7 +3,7 @@
 package types
 
 const (
-	DefaultCollectors            = "cpu,cs,logical_disk,physical_disk,net,os,service,system,textfile"
+	DefaultCollectors            = "cpu,cpu_info,cs,logical_disk,memory,net,os,remote_fx,process,service,tcp"
 	DefaultCollectorsPlaceholder = "[defaults]"
 	Namespace                    = "windows"
 )
