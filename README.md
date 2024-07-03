@@ -16,6 +16,7 @@ Name     | Description | Enabled by default
 [cpu_info](docs/collector.cpu_info.md) | CPU Information |
 [cs](docs/collector.cs.md) | "Computer System" metrics (system properties, num cpus/total memory) | &#10003;
 [container](docs/collector.container.md) | Container metrics |
+[diskdrive](docs/collector.diskdrive.md) | Diskdrive metrics |
 [dfsr](docs/collector.dfsr.md) | DFSR metrics |
 [dhcp](docs/collector.dhcp.md) | DHCP Server |
 [dns](docs/collector.dns.md) | DNS Server |
@@ -43,6 +44,7 @@ Name     | Description | Enabled by default
 [netframework_clrsecurity](docs/collector.netframework_clrsecurity.md) | .NET Framework Security Check metrics |
 [net](docs/collector.net.md) | Network interface I/O | &#10003;
 [os](docs/collector.os.md) | OS metrics (memory, processes, users) | &#10003;
+[printer](docs/collector.printer.md) | Printer metrics | 
 [process](docs/collector.process.md) | Per-process metrics |
 [remote_fx](docs/collector.remote_fx.md) | RemoteFX protocol (RDP) metrics |
 [scheduled_task](docs/collector.scheduled_task.md) | Scheduled Tasks metrics |
